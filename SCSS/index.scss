@@ -13,6 +13,7 @@ main {
 
     background-color: $box-background;
     width: 85%;
+    height: 37vh;
     margin: 10rem auto;
     border-radius: 10px;
     padding: 1rem;
@@ -47,7 +48,6 @@ main {
 
     &__dice {
 
-        display: none;
         background-color: $green-font;
         display: flex;
         justify-content: center;
@@ -56,9 +56,23 @@ main {
         width:2.5rem;
         height: 2.5rem;
         position: absolute;
-        top: 45%;
-        left: 42%;
+        bottom: -8%;
 
     }
 
 }
+
+// .container::after {
+
+//     content: url(../images/icon-dice.svg);
+//     position: absolute;
+//     background-color: $green-font;
+//     width: 3rem;
+//     height: 3rem;
+//     border-radius: 50%;
+//     bottom: -10%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+// }

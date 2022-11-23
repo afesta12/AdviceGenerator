@@ -35,6 +35,7 @@ main {
 .container {
   background-color: hsl(217deg, 19%, 24%);
   width: 85%;
+  height: 37vh;
   margin: 10rem auto;
   border-radius: 10px;
   padding: 1rem;
@@ -59,7 +60,6 @@ main {
   margin-bottom: 1rem;
 }
 .container__dice {
-  display: none;
   background-color: hsl(150deg, 100%, 66%);
   display: flex;
   justify-content: center;
@@ -68,6 +68,5 @@ main {
   width: 2.5rem;
   height: 2.5rem;
   position: absolute;
-  top: 45%;
-  left: 42%;
+  bottom: -8%;
 }/*# sourceMappingURL=index.css.map */
