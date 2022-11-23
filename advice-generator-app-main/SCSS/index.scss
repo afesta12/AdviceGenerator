@@ -1,0 +1,64 @@
+@import "config.scss";
+
+main {
+
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.container {
+
+    background-color: $box-background;
+    width: 85%;
+    margin: 10rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    &__advice {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        line-height: 2rem;
+
+    }
+
+    &__desktop {
+
+        display: none;
+
+    }
+
+    &__mobile {
+
+        margin-bottom: 1rem;
+
+    }
+
+    &__dice {
+
+        display: none;
+        background-color: $green-font;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        width:2.5rem;
+        height: 2.5rem;
+        position: absolute;
+        top: 45%;
+        left: 42%;
+
+    }
+
+}
