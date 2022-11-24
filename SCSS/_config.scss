@@ -39,3 +39,20 @@ p {
     font-size: 1.25rem;
     
 }
+
+// Media Queries
+@mixin screen-md {
+    
+    @media screen and (min-width: 600px) {
+
+        @content;
+
+    }
+
+}
+
+@mixin transition-ease {
+    
+    transition: all .3s ease-in-out;
+
+}
